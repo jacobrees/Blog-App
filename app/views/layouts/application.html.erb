@@ -15,20 +15,14 @@
       <!-- Hero head: will stick at the top -->
       <div class="hero-head">
         <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
+          <div class="container is-flex is-justify-content-space-between">
+            <div class="">
               <%= link_to 'Blog App', root_path, class: "navbar-item" %>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
+
             </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
+              <div class="">
                 <%= link_to "Create New Post", new_post_path, class:"navbar-item" %>
               </div>
-            </div>
           </div>
         </nav>
       </div>
