@@ -11,6 +11,31 @@
   </head>
 
   <body>
+    <section class="hero is-primary is-medium">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container is-flex is-justify-content-space-between">
+            <div class="">
+              <%= link_to 'Blog App', root_path, class: "navbar-item" %>
+
+            </div>
+              <div class="">
+                <%= link_to "Create New Post", new_post_path, class:"navbar-item" %>
+              </div>
+          </div>
+        </nav>
+      </div>
+  
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            <%= yield :page_title %>
+          </h1>
+        </div>
+      </div>
+    </section>
     <%= yield %>
   </body>
 </html>

@@ -1,24 +1,79 @@
-# README
+# Private Event
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+>This project is a Ruby on Rails project. The goal of this project is to build a basic blog app. 
 
-Things you may want to cover:
+### Blog App Screenshot:
 
-* Ruby version
+![](screenshot/screenshot.png)
 
-* System dependencies
+# Getting Started
 
-* Configuration
+You should have Ruby & Ruby on Rails already installed on your machine before you begin.
 
-* Database creation
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Database initialization
+```
+$ cd <folder>
+```
 
-* How to run the test suite
+```
+$ git clone git@github.com:jacobrees/Blog-App.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+To navigate into the repository you have just cloned you will do this by using `cd` inside of your terminal.
 
-* ...
+```
+$ cd Blog-App
+```
+
+To install all of the ruby dependencies run the command `bundle install`
+
+```
+$ bundle install
+```
+
+To migrate the database run 'rails db:migrate' you will have to do this in order to do the next steps.
+
+```
+$ rails db:migrate
+```
+
+
+Run the command `rails server` and this start the webrick server. 
+
+```
+$ rails server
+```
+
+Next you will want to open up your browser and navigate to the root of the application inside of your browser `https://localhost:3000` from here you can play with and experience the application fully.
+```
+$ https://localhost:3000
+```
+
+
+## Built With
+
+- Ruby (Version - 3.1.2)
+- Ruby on Rails 7.0.4
+
+
+## Authors
+
+👤 **Jacob Rees**
+
+- Github: [@jacobrees](https://github.com/jacobrees)
+- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project inspired by The Odin Project
