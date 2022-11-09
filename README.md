@@ -2,6 +2,10 @@
 
 >This project is a Ruby on Rails project. The goal of this project is to build a basic blog app. 
 
+### Blog App Screenshot:
+
+![](screenshot/screenshot.png)
+
 # Getting Started
 
 You should have Ruby & Ruby on Rails already installed on your machine before you begin.
@@ -57,7 +61,7 @@ $ https://localhost:3000
 👤 **Jacob Rees**
 
 - Github: [@jacobrees](https://github.com/jacobrees)
-- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees-a6507b1a6/)
+- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees/)
 
 
 ## 🤝 Contributing
