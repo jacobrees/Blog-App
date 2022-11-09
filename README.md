@@ -2,6 +2,10 @@
 
 >This project is a Ruby on Rails project. The goal of this project is to build a basic blog app. 
 
+### Blog App Screenshot:
+
+![](screenshot/screenshot.png)
+
 # Getting Started
 
 You should have Ruby & Ruby on Rails already installed on your machine before you begin.
@@ -16,6 +20,13 @@ $ cd <folder>
 $ git clone git@github.com:jacobrees/Blog-App.git
 ```
 
+
+To navigate into the repository you have just cloned you will do this by using `cd` inside of your terminal.
+
+```
+$ cd Blog-App
+```
+
 To install all of the ruby dependencies run the command `bundle install`
 
 ```
@@ -28,13 +39,8 @@ To migrate the database run 'rails db:migrate' you will have to do this in order
 $ rails db:migrate
 ```
 
-To launch the rails server inside of your terminal you will need to navigate into the repository you have just cloned. You will do this by using `cd` inside of your terminal. Once you are inside of this folder run the command `rails server` and this start the webrick server. 
 
-Below shows the following commands you will need to run to achieve this:
-
-```
-$ cd Blog-App
-```
+Run the command `rails server` and this start the webrick server. 
 
 ```
 $ rails server
@@ -57,7 +63,7 @@ $ https://localhost:3000
 👤 **Jacob Rees**
 
 - Github: [@jacobrees](https://github.com/jacobrees)
-- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees-a6507b1a6/)
+- Linkedin: [jacob-rees-a6507b1a6](https://www.linkedin.com/in/jacob-rees/)
 
 
 ## 🤝 Contributing
